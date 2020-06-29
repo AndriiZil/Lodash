@@ -105,7 +105,7 @@ console.log(sorted); /*
     { name: 'JS', price: 32 }
   ]
 */
-console.log(_.orderBy(pBooks, ['name', 'asc']));
+console.log(_.orderBy(pBooks, ['name', 'asc'])); // => desc
 /*
   [
     { name: 'Angular', price: 24 },
